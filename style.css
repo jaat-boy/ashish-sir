@@ -1,0 +1,944 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+
+    max-width: 100%;
+    
+}
+
+header img{
+    width: 132px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.banner{
+    display: flex; 
+
+    padding-left:70px ;
+    width: 95%;
+    
+    margin: 30px auto;
+}
+.banner .headline h1{
+   max-width: 666px;
+  color: rgba(9, 9, 9, 0.744);
+   font-weight: 670;
+   font-size: 34px;
+}
+
+.top-feature-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.top-feature{
+    margin-top: 20px;
+}
+.bx{
+    background-color:rgb(49, 49, 145);
+    border-radius: 50%;
+    color: antiquewhite;
+}
+.hero-video video{
+    max-width: 590px;
+
+}
+.prize-btn{
+    margin-top: 30px;
+}
+.prize-btn a{
+     text-decoration: none;
+     padding: 10px 190px;
+     font-size: 20px;
+     color: white;
+     font-weight: 500;
+     background-image: linear-gradient(180deg, #fd9d01 0, #f17d01 86.46%);
+     border-radius: 20px;
+}
+.form{
+    margin-top: 90px;
+    max-width: 380px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 2px rgb(216, 216, 218);
+    border-radius: 10px;
+    height: 430px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.form-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.form input{
+    width: 90%;
+    padding: 16px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+   
+}
+.form button{
+    width: 90%;
+    padding: 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #005c9e;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.form input:hover{
+    outline:1px solid rgb(33, 18, 97);
+}
+.form button:hover{
+    transform: scaleX(1.1);
+    transition: .2s ease-out;
+}
+/**cards**/
+.container-sm{
+    padding: 20px;
+}
+#fluid{
+    text-align: center;
+    padding: 26px 0px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    
+    border: none;
+    
+    
+}
+.card-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 150px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+.product-cardss{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+.pro-card{
+    width: 360px;
+    background-color:white;
+    box-shadow: 1px 2px 5px 1px;
+    border-radius: 20px;
+}
+.card-heding{
+    padding: 20px  0px 0px 20px;
+    
+}
+.card-heding p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.stars{
+    display: flex;
+    gap: 2px;
+}
+#star{
+    background-color: transparent;
+    color: goldenrod;
+}
+.prize-butn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.prize-butn a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: white;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+/**rating**/
+.rating-conatiner{
+   
+    margin-top: 40px;
+   
+    
+}
+.rating-heading{
+text-align: center;
+}
+.rating-heading p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.rating-list-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.rating-list-box ul li{
+    list-style: none;
+    font-size: 19px;
+    line-height: 2;
+    font-weight: 400;
+}
+
+
+
+.rating-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+
+}
+.rate-card img{
+    width: 200px;
+}
+
+
+.costumer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    
+}
+.costumer-heading{
+    padding-top: 10px;
+    text-align: center;
+    width: 70%;
+    background-color: rgba(12, 133, 240, 0.272);
+    font-size: 24px;
+    font-weight: 500;
+} 
+
+.costumer-img{
+    width: 84%;
+    
+}
+.costumer-img img{
+    width: inherit;
+    margin-left: 85px;
+}
+
+
+.rating-p{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.hard-flex{
+    margin-top: 40px;
+    display: flex;
+    gap: 80px;
+    
+    
+    
+    
+    
+}
+
+.cupan-card-box{
+    max-width:380px ;
+    box-shadow: 1px 2px 10px 2px;
+    background-color: white;
+    padding: 10px 0px 0px ;
+    border-radius: 10px;
+
+
+
+}
+.comment{
+    padding: 10px;
+}
+.clint{
+    background-color: #152b50;
+    padding: 8px;
+    display: flex;
+    border-radius: 0px 0px 10px  10px;
+    
+    
+}
+.clint-imgs img{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.clint-name{
+    color: white;
+    margin-left: 30px;
+}
+#icone-star{
+    color: gold;
+    background-color: transparent;
+}
+/**state**/
+#state-heading{
+    margin-top: 30px;
+    max-width:80% ;
+    text-align: center;
+}
+#state-heading h2{
+    font-size: 28px;
+}
+.state-setup{
+    text-align: start;
+}
+.state-setup p{
+    font-size:20px ;
+}
+.state-container{
+    margin-top: 30px;
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    grid-template-columns: auto auto;
+}
+.state-container>div{
+    height: 63px;
+    padding: 12px;
+    background-position:start;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    background-color: white;
+    border: 1px solid #152b50;
+    border-radius: 10px;
+     
+}
+.state-container>div>.name-of-state{
+    color:rgba(0, 0, 0, 0.715);
+    font-weight: 500;
+    font-size: 30px;
+    text-align: left;
+    
+    padding-left:50px ;
+}
+.other-state-btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+}
+.other-state-btn .state-btn a{
+    
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.783);
+    font-size: 28px;
+    font-weight: 500;
+    
+    
+}
+.other-state-btn .state-btn{
+    background-color: white;
+    width: 370px;
+    border: 1px solid #005c9e;
+    border-radius: 10px;
+    padding: 10px;
+
+ 
+}
+.other-state-btn .state-btn:hover{
+    background-color:#385992;
+    
+}
+.state-btn:hover a{
+    color:wheat ;
+}
+.state-container>div:hover{
+    background-color: #385992;
+    
+}
+.state-container>div>.name-of-state:hover{
+    color: white;
+}
+
+/**footer**/
+
+.footer-main{
+    width: 100%;
+    background-color:#005c9e;
+   text-align: center;
+   margin-top:50px;
+   padding: 30px 0px;
+
+   
+    
+}
+.footer-list{
+    
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-main .footer-list a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+
+}
+.footer-p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**responsive**/
+
+@media (max-width:1097px){
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+    
+}
+
+@media (max-width:768px) {
+    .prize-btn a{
+        padding: 10px 40px;
+        
+    }
+    .prize-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner{
+        width: 100%;
+        padding-right: 90px;
+
+    }
+    #fluid{
+        font-size: 20px;
+
+    }
+    .cards{
+        
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 80px;
+        
+    }
+    .cards .card-1 p{
+        font-size: 14px;
+    }
+   .product-cardss{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+    .rate-card img{
+        max-width:140px ;
+        
+    }
+    .costumer-img img{
+        margin-left: 43px;
+    }
+    .card-1 img{
+        max-width: 100%;
+    }
+    .card-1{
+        max-width: 60px;
+    }
+    .hero-video{
+        max-width:653x;
+
+    }
+    .hero-video .lazy_video{
+        width: 100%;
+        padding: 0px;
+    }
+    .rating-list-box{
+       max-width: 639px;
+       gap: 10px;
+    }
+    .rating-list ul li{
+        font-size: 14px;
+    }
+    .rating-p{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .snip1390{
+        width: 80%;
+    }
+    #hat{
+        display: none;
+    }
+    .top-feature-list {
+        font-size: 15px;
+    }
+    .form{
+        max-width:90%;
+        height: 300px;
+    }
+    .form input{
+        width: 90%;
+        padding: 10px;
+        flex-wrap: nowrap;
+        
+    }
+    .form button{
+        max-width: 90%;
+        padding: 12px;
+    }
+    
+}
+@media (max-width:768px) {
+    .prize-btn a{
+        padding: 10px 40px;
+        
+    }
+    .prize-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner{
+        width: 100%;
+        padding-right: 90px;
+
+    }
+    #fluid{
+        font-size: 20px;
+
+    }
+    .cards{
+        width: 100%;
+        
+    }
+   .product-cardss{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+    .rate-card img{
+        max-width:140px ;
+        
+    }
+    .costumer-img img{
+        margin-left: 43px;
+    }
+    .card-1 img{
+        max-width: 100%;
+    }
+    .card-1{
+        max-width: 60px;
+    }
+    .hero-video{
+        max-width:653x;
+
+    }
+    .hero-video .lazy_video{
+        width: 100%;
+        padding: 0px;
+    }
+    .rating-list-box{
+       max-width: 639px;
+       gap: 10px;
+    }
+    .rating-list ul li{
+        font-size: 14px;
+    }
+    .rating-p{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .snip1390{
+        width: 80%;
+    }
+    #hat{
+        display: none;
+    }
+    .top-feature-list {
+        font-size: 15px;
+    }
+    .form{
+        max-width:90%;
+        height: 300px;
+    }
+    .form input{
+        width: 90%;
+        padding: 10px;
+        flex-wrap: nowrap;
+        
+    }
+    .form button{
+        max-width: 90%;
+        padding: 12px;
+    }
+    
+}
+@media (max-width:720px) {
+    .footer-main{
+        max-width: 100%;
+    }
+   .hard-flex{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+   }
+   .state-container{
+    display: flex;
+    flex-direction: column;
+   }
+}
+@media (max-width:598px) {
+    .posn .headline h1{
+        font-size: 20px;
+    }
+    .prize-btn a{
+        padding: 10px 40px;
+        
+    }
+    .prize-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner{
+        width: 100%;
+        padding-right: 90px;
+
+    }
+    #fluid{
+        font-size: 20px;
+
+    }
+    .cards{
+        width: 100%;
+        
+    }
+   .product-cardss{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+    .rate-card img{
+        max-width:140px ;
+        
+    }
+    .costumer-img img{
+        margin-left: 43px;
+        
+    }
+    .card-1 img{
+        max-width: 100%;
+    }
+    .card-1{
+        max-width: 60px;
+    }
+    .hero-video{
+        max-width:653x;
+
+    }
+    .hero-video .lazy_video{
+        width: 100%;
+        padding: 0px;
+    }
+    .rating-list-box{
+       max-width: 639px;
+       gap: 10px;
+    }
+    .rating-list ul li{
+        font-size: 14px;
+    }
+    .rating-p{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .snip1390{
+        width: 80%;
+    }
+    #hat{
+        display: none;
+    }
+    .top-feature-list {
+        font-size: 15px;
+    }
+    .form{
+        max-width:90%;
+        height: 340px;
+    }
+    .card-1 p{
+        font-size: 10px;
+    }
+    .form input{
+        width: 90%;
+        padding: 10px;
+        flex-wrap: nowrap;
+        
+    }
+    .form button{
+        max-width: 90%;
+        padding: 12px;
+    }
+    
+}
+@media (max-width:508px) {
+    *{
+        margin: 0px;
+        padding: 0;
+    }
+    .posn .headline h1{
+        font-size: 16px;
+    }
+    
+    .posn .top-feature ul li{
+        font-size: 12px;
+    }
+    .rating-container{
+        max-width:508px;
+    }
+    .rating-list-box{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .rating-cards{
+        width: 100%;
+        gap: 10px;
+    }
+    .footer-main  .footer-list a{
+       font-size: 20px;
+    }
+    #state-heading{
+        max-width: 100%;
+    }
+    .state-container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .state-container .state-name{
+        max-width: 150px;
+        background-position: center;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .state-container .state-name p{
+        font-size: 18px;
+        padding: 0;
+    }
+}
+@media (max-width:428px) {
+    .banner{
+        width: 100%;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+   .rating-cards{
+    flex-wrap: wrap;
+   }
+   .cards{
+    flex-wrap: wrap;
+   }
+   .footer-main .footer-list a{
+    font-size: 15px;
+   }
+    
+}
+@media (max-width:368px) {
+    .posn .headline{
+        text-align: center;
+    }
+    .form{
+        height: 400px;
+    }
+    .form button{
+       width: 70%;
+       font-size: 16px;
+    }
+    
+    .banner .top-feature-list{
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pro-card{
+        width: 100%;
+    }
+    .state-heding .container h2{
+        font-size: 12px;
+    }
+    .state-name{
+        
+        max-width:3180px ;
+    }
+    .costumer{
+        margin-top: 20px;
+    }
+    .costumer-heading{
+        width: 100%;
+        font-size: 20px;
+    }
+    .costumer-img{
+        width: 319px;
+        
+
+    }
+    .costumer-img img{
+        margin-left: -2px;
+    }
+    .prize-butn a{
+        font-size: 16px;
+    }
+    .footer-main .footer-list{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-p{
+        font-size: 10px;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .cupan-card-box{
+        max-width: 300px;
+    }
+   
+    
+}
